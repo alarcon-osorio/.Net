@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace iot
+{
+    public partial class usuario : Form
+    {
+        public usuario(string nombres)
+        {
+            InitializeComponent();
+            lblmensaje.Text = nombres;
+        }
+
+        private void usuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void herramientasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Programa creado por");
+        }
+    }
+}
